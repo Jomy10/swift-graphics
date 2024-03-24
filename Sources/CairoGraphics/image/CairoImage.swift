@@ -55,7 +55,7 @@ public final class CairoImage: BufferedImage {
         }
     }
 
-    init(rawSurface: Surface.Image) {
+    public init(rawSurface: Surface.Image) {
         self.rawSurface = rawSurface
     }
 

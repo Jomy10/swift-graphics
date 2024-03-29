@@ -26,7 +26,7 @@ public final class CairoContext: GraphicsContext {
         image
     }
 
-    private func markImageAsUnflushed() {
+    public func markImageAsUnflushed() {
         image.flushed = false
     }
 

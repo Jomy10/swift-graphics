@@ -6,7 +6,7 @@ import Utils
  * A graphics context that uses the Cairo library for its drawing primitives.
  */
 public final class CairoContext: GraphicsContext {
-    private let context: Cairo.Context
+    public let context: Cairo.Context
     private let image: CairoImage
 
     deinit {
